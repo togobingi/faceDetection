@@ -1,7 +1,7 @@
 import cv2, time
 
 video = cv2.VideoCapture(0) #Video capture object and 0 tells python to use my default webcam
-face_cascade = cv2.CascadeClassifier("C:\\Users\\Tobi\\Documents\\Ubiqum Course Docs 2019\\Ubiqum_Experience\\OpenCV\\openCV_libs\\haarcascade_frontalface_default.xml")
+face_cascade = cv2.CascadeClassifier("\\filepath")
 
 a = 1
 while True:
